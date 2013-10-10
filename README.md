@@ -34,11 +34,11 @@ Nginx выступает в качестве фронтэнда. В качест
 
 ## Настройка IIS
 
-Повесить IIS на 127.0.0.1 и сменить порт с 80 на 8080 или любой другой, не занятый порт. Указать в файле [upstreams.conf](blob/master/upstreams.conf) значения привязки IIS.
+Повесить IIS на 127.0.0.1 и сменить порт с 80 на 8080 или любой другой, не занятый порт. Указать в файле [upstreams.conf](upstreams.conf) значения привязки IIS.
 
 ## Настройка приложения "Сетевой город. Образование."
 
-В файле ``C:/Program Files/NetCity2/Web/global.asa`` изменить ``Application("SERVER_HOSTNAME") = "127.0.0.1:8080"`` в соответсвии с [upstreams.conf](blob/master/upstreams.conf)
+В файле ``C:/Program Files/NetCity2/Web/global.asa`` изменить ``Application("SERVER_HOSTNAME") = "127.0.0.1:8080"`` в соответсвии с [upstreams.conf](upstreams.conf)
 
 В директории ``C:/Program Files/NetCity2/Web/`` создать файл ``robots.txt`` с содержимым
 ```
