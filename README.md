@@ -32,6 +32,21 @@ Nginx выступает в качестве фронтэнда. В качест
 
 Показания получены посредством анализа логов IIS и nginx [awstat'ом](http://awstats.sourceforge.net/)
 
+## Настройка IIS
+
+Повесить IIS на 127.0.0.1 и сменить порт с 80 на 8080 или любой другой, не занятый порт. Указать в файле [upstreams.conf](blob/master/upstreams.conf) значения привязки IIS.
+
+## Настройка приложения "Сетевой город. Образование."
+
+В файле ``C:/Program Files/NetCity2/Web/global.asa`` изменить ``Application("SERVER_HOSTNAME") = "127.0.0.1:8080"`` в соответсвии с [upstreams.conf](blob/master/upstreams.conf)
+
+В директории ``C:/Program Files/NetCity2/Web/`` создать файл ``robots.txt`` с содержимым
+```
+User-agent: *
+Disallow: /
+```
+чтоб лишний раз поисковые роботы не беспокоили.
+
 * [Описание приложения "Сетевой Город. Образование."](http://www.net-school.ru/netcity.php)
 * [Документация nginx](http://nginx.org/ru/docs/)
 * Заимствованы идеи и куски кода c https://github.com/perusio/drupal-with-nginx и http://wiki.nginx.org/Drupal
