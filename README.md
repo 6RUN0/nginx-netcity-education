@@ -51,6 +51,8 @@ Disallow: /
 
 Подписанный ssl сертификат, сроком действия один год можно взять на [startssl.com](http://www.startssl.com/)
 
+## Ссылки
+
 * [Описание приложения "Сетевой Город. Образование."](http://www.net-school.ru/netcity.php)
 * [Документация nginx](http://nginx.org/ru/docs/)
 * Заимствованы идеи и куски кода c https://github.com/perusio/drupal-with-nginx и http://wiki.nginx.org/Drupal
