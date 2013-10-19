@@ -49,11 +49,12 @@ Disallow: /
 
 ## SSL сертификат
 
-Подписанный ssl сертификат, сроком действия один год можно взять на [startssl.com](http://www.startssl.com/)
+Бесплатный подписанный ssl сертификат, сроком действия один год можно взять на [startssl.com](http://www.startssl.com/)
 
 ## Ссылки
 
 * [Описание приложения "Сетевой Город. Образование."](http://www.net-school.ru/netcity.php)
 * [Документация nginx](http://nginx.org/ru/docs/)
+* [Аьтернативная сборка nginx для Windows](http://nginx-win.ecsds.eu/), [mailing](http://forum.nginx.org/read.php?2,242426), [google groups](https://groups.google.com/forum/#!forum/openresty-en)
 * Заимствованы идеи и куски кода c https://github.com/perusio/drupal-with-nginx и http://wiki.nginx.org/Drupal
 * [Как сгенерировать ssl сертификат с помощью openssl](https://www.google.com/search?q=how+to+create+ssl+certificate+with+openssl)
